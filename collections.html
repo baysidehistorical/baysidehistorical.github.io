@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>Bayside Historical Society</title>
+
+  <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!--Container-->
+  <div class="container" style="max-width:1024px; box-shadow:0px 0px 5px 5px #999999;padding:0px">
+    <!--Header-->
+    <div role="navigation"></div>
+    <!--Banner-->
+    <div class="col-md-12" style="background-image:url('assets/images/header/collections.jpg');height:300px;margin-bottom:10px"></div>
+    <!--Contnet Panels-->
+    <div class="row" style="padding:15px">
+      <div class="col-md-3" id="sidebar">
+        <h3><a href="">Collections</a></h3>
+        <ul>
+          <li><a href="#donations">Donations</a></li>
+          <li><a href="#reproduction">Rights and Reproductions</a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </div>
+      <div class="col-md-9" id="main-content">
+        <h2>Collections</h2>
+
+        <img src="assets/images/content/bridalshoes.jpg">
+        <p>BHS’s archival repository at the Castle is dedicated to making available to researchers of all ages primary source material, artifacts, real and personal property of historical interest, records, material and ephemera which document the continuing growth, development and activities of the communities in Northeast Queens.</p>
+        <div class="image_credit">Image: Bridal shoes, circa 1920. Gift of Joan Brown Wettingfeld.</div><br/>
+        <a id="donations"></a>
+        <h3>Donations</h3>
+        <p>As part of our mission is to collect, preserve, and make available material concerning Northeast Queens and its residents, we welcome donations from all members of our community including individuals, families, civic groups, religious and political organizations, clubs, schools and businesses. Examples of donations include, but are not limited to, photographs, organizational memorabilia, land deeds, genealogical documentation, maps, business records, personal papers, brochures, scrapbooks, pamphlets, diaries, year books, correspondence, sound recordings, films, videotapes, telephone directories, memorabilia, and ephemera. Please contact the archivist to discuss donating material to the archives. Donations to the Bayside Historical Society may be tax deductible.</p><br/>
+
+        <a id="reproduction"></a>
+        <h3>Rights and Reproductions</h3>
+        <p>	Unpublished material covered by restrictions may only be used subject to those restrictions. Photocopying of most material is permitted for personal use only and 	is governed by United States copyright law. Requests for all other uses must be made in writing. Permission to use the resources of BHS for commercial purposes is granted on a case-by-case basis at the sole discretion of BHS. Please contact us for information concerning permissions. License fees apply depending on the type and nature of the intended use. </p>
+        <p>Membership of BHS is not a requisite, nor is there a charge for researching at the Castle.</p>
+
+        <p>BHS does not provide telephone or email research requests.</p>
+
+        <p>To arrange an appointment or to inquire about our holdings please call 718.352.1548 or e-mail us at archivist@baysidehistorical.org</p>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="bs-docs-footer" role="contentinfo" style="background-color:#999999;color:#fff">
+      <div class="row" style="padding:15px;"></div>
+    </footer>
+    <!--End Container-->
+  </div>
+
+  <script src="assets/js/jquery-1.11.2.min.js"></script>
+  <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("div[role=navigation]").load("header.html")
+    $(".bs-docs-footer .row").load("footer.html")
+  })
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-56764651-1', 'auto');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
