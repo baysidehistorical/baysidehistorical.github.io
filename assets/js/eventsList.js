@@ -1,7 +1,7 @@
 {
 	"events":[
 		{
-		  "id": 38,
+		  "id": 39,
 		  "title": "For Crying Out Loud! The Cartoon Art of TAD Dorgan",
 		  "image": "2015/tad_dorgan.jpg",
 		  "date": "Friday, June 19, 2015",
@@ -11,7 +11,7 @@
 		  "description": "<p>Exhibition Opening : Comics by nationally syndicated artist and Bayside resident Thomas Aloysius (Tad) Dorgan (1877-1929) including &quot;Indoor Sports&quot;, &quot;Silk Hat Harry&quot;, and &quot;Daffydils&quot;.<br></p><p><i>Light Refreshments will be served.</i></p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><img src='assets/images/logo/dca.png' height='30px'/></p>"
 		},
 		{
-		  "id": 37,
+		  "id": 38,
 		  "title": "Conversations with Cary",
 		  "image": "2015/cary_carnary.jpg",
 		  "date": "Tuesday, June 16, 2015",
@@ -21,7 +21,7 @@
 		  "description": "<p>Join BHS member Cary Diamond as he shares excerpts from his recently completed memoirs.</p>"
 		},
 		{
-		  "id": 36,
+		  "id": 37,
 		  "title": "Family Fun Day at Crocheron Park",
 		  "image": "2015/family_fun_day.jpg",
 		  "date": "Saturday, June 13, 2015",
@@ -31,7 +31,7 @@
 		  "description": "<p>BHS will be tabling—stop by and see us!</p>"
 		},
 		{
-		  "id": 35,
+		  "id": 36,
 		  "title": "BHS Annual Lawn Concert @ Crocheron Park",
 		  "image": "2015/desert_highway_band.jpg",
 		  "date": "Sunday, June 7, 2015",
@@ -41,7 +41,7 @@
 		  "description": "<p>Free outdoor concert featuring Desert Highway, “driving the music of the Eagles, Don Henley, Joe Walsh and American Classic Rock”. Attendees are welcome to bring lawn chairs, blankets, and picnics. <br>Located on the sledding hill at Crocheron Park.<br><i>Co-sponsored with New York City Department of Parks and Recreation.</i></p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><img src='assets/images/logo/dca.png' height='30px'/></p>"
 		},
 		{
-		  "id": 34,
+		  "id": 35,
 		  "title": "CastleQuest 2015",
 		  "image": "2015/castle_quest.gif",
 		  "date": "Saturday, May 30, 2015",
@@ -51,7 +51,7 @@
 		  "description": "<p>Part Amazing Race, part Scavenger Hunt, all FUN! Take part in our first annual CastleQuest as we explore Fort Totten Park, stopping along the way to solve puzzles, search for clues, and learn about local history. <br> Team check-in: 11am; race begins 12pm. Celebratory lunch to follow.<br>Up to four people per team<br><a href='/files/Castle_Quest_FAQs.pdf' target='_blank'>Click here to view CastleQuest FAQs</a></p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><img src='assets/images/logo/dca.png' height='30px'/></p>"
 		},
 		{
-		  "id": 33,
+		  "id": 34,
 		  "title": "Clay Figurine Workshop with artist Pat Brintle",
 		  "image": "2015/clay.jpg",
 		  "date": "Saturday, May 19, 2015",
@@ -61,7 +61,7 @@
 		  "description": "<p>Learn about sculpting and hand-building with clay including various techniques (pinch, coil, score, and slip) as well as parts of a vase (mouth, neck, body, foot). A discussion on firing processes, terminology (bisque, greenware, oxidation, etc.) and decorative techniques and terms (glaze, sgraffito, stamping, etc.) will follow. Students will create their own air-dried clay figurines to take home.<br><i>All supplies will be provided. Space is limited. Preregistration is required.</i></p>"
 		},
 		{
-		  "id": 32,
+		  "id": 33,
 		  "title": "A Walk Through Historic Bayside with historian Jason D. Antos",
 		  "image": "2015/bayside_train_station.jpg",
 		  "date": "Saturday, May 2, 2015",
@@ -71,7 +71,7 @@
 		  "description": "<p>Wander mindfully through streets and avenues of Bayside and learn about the rich cultural heritage of the neighborhood.<br>Meet up location: Bayside LIRR Train Station.</p>"
 		},
 		{
-		  "id": 31,
+		  "id": 32,
 		  "title": "A Taste of Honey Redux",
 		  "image": "2015/honey_tasting.jpg",
 		  "date": "Friday, May 8, 2015",
@@ -81,7 +81,7 @@
 		  "description": "<p>A bee-guiling presentation by beekeeper and honey connoisseur Ruth Harrigan. Learn all about the bee-utiful honey bee and beekeeping, then sample several local honeys. We will then indulge in some exquisite honey-centric edibles and libations.<br><i>Reservations Required 718.352.1548</i></p>"
 		},
 		{
-			"id": 30,
+			"id": 31,
 			"title": "Sesquicentennial Civil War Encampment Reenactment",
 			"image": "2015/civil_war_encampment.jpg",
 			"date": "Sunday, May 10, 2015",
@@ -91,7 +91,7 @@
 			"description": "Dr. Peter Ridout, a member of the 124th New York Volunteers Civil War Reenactment Unit, will set up a two tent encampment where you will be able to directly interact with a Civil War soldier.<br><i>Co-sponsored by Benjamin Cardozo High School</i>"
 		},
 		{
-			"id": 29,
+			"id": 30,
 			"title": "Open Sew at the Castle",
 			"image": "queens_sewing.jpg",
 			"date": "Saturday, April 25, 2015",
@@ -99,6 +99,16 @@
 			"cost": "$8 BHS members; $10 non-BHS members",
 			"abstract": "",
 			"description": "<p>Do you quilt, sew or just love fabric and textiles? Or would you like to learn? Join other sewing enthusiasts in an afternoon of creating and socializing.</p>"
+		},
+		{
+			"id": 29,
+			"title": "Rakes and Bagels",
+			"image": "2015/rakes_bagels.jpg",
+			"date": "Saturday, April 25, 2015",
+			"time": "9 AM",
+			"cost": "FREE",
+			"abstract": "",
+			"description": "<p>It’s Time to Spruce-Up Lawrence Cemetery For the Spring! Lawrence Cemetery is one of our precious Queens Landmarks. Come and be a part of keeping it beautiful with the BHS. Bring a leaf rake and some garden gloves & we’ll supply the Coffee and Bagels!<br>Place: Lawrence Cemetery (On the Corner of 42nd Ave. & 216th Street, Bayside)<br><i>Contact Pete Sutich (718-938-0192) with any questions.</i></p>"
 		},
 		{
 			"id": 28,
