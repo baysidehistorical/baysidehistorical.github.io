@@ -1,7 +1,7 @@
 {
 	"events":[
 		{
-		  "id": 39,
+		  "id": 40,
 		  "title": "For Crying Out Loud! The Cartoon Art of TAD Dorgan",
 		  "image": "2015/tad_dorgan.jpg",
 		  "date": "Friday, June 19, 2015",
@@ -11,7 +11,7 @@
 		  "description": "<p>Exhibition Opening : Comics by nationally syndicated artist and Bayside resident Thomas Aloysius (Tad) Dorgan (1877-1929) including &quot;Indoor Sports&quot;, &quot;Silk Hat Harry&quot;, and &quot;Daffydils&quot;.<br></p><p><i>Light Refreshments will be served.</i></p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><img src='assets/images/logo/dca.png' height='30px'/></p>"
 		},
 		{
-		  "id": 38,
+		  "id": 39,
 		  "title": "Conversations with Cary",
 		  "image": "2015/cary_carnary.jpg",
 		  "date": "Tuesday, June 16, 2015",
@@ -21,7 +21,7 @@
 		  "description": "<p>Join BHS member Cary Diamond as he shares excerpts from his recently completed memoirs.</p>"
 		},
 		{
-		  "id": 37,
+		  "id": 38,
 		  "title": "Family Fun Day at Crocheron Park",
 		  "image": "2015/family_fun_day.jpg",
 		  "date": "Saturday, June 13, 2015",
@@ -31,7 +31,7 @@
 		  "description": "<p>BHS will be tabling—stop by and see us!</p>"
 		},
 		{
-		  "id": 36,
+		  "id": 37,
 		  "title": "BHS Annual Lawn Concert @ Crocheron Park",
 		  "image": "2015/desert_highway_band.jpg",
 		  "date": "Sunday, June 7, 2015",
@@ -41,20 +41,30 @@
 		  "description": "<p>Free outdoor concert featuring Desert Highway, “driving the music of the Eagles, Don Henley, Joe Walsh and American Classic Rock”. Attendees are welcome to bring lawn chairs, blankets, and picnics. <br>Located on the sledding hill at Crocheron Park.<br><i>Co-sponsored with New York City Department of Parks and Recreation.</i></p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><img src='assets/images/logo/dca.png' height='30px'/></p>"
 		},
 		{
-		  "id": 35,
+		  "id": 36,
 		  "title": "CastleQuest 2015",
 		  "image": "2015/castle_quest.gif",
 		  "date": "Saturday, May 30, 2015",
 		  "time": "11 AM - 3 PM",
 		  "cost": "$10 per person",
 		  "abstract": "",
-		  "description": "<p>Part Amazing Race, part Scavenger Hunt, all FUN! Take part in our first annual CastleQuest as we explore Fort Totten Park, stopping along the way to solve puzzles, search for clues, and learn about local history. <br> Team check-in: 11am; race begins 12pm. Celebratory lunch to follow.<br>Up to four people per team<br><a href='/files/Castle_Quest_FAQs.pdf' target='_blank'>Click here to view CastleQuest FAQs</a></p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><img src='assets/images/logo/dca.png' height='30px'/></p>"
+		  "description": "<p>Part Amazing Race, part Scavenger Hunt, all FUN! Take part in our first annual CastleQuest as we explore Fort Totten Park, stopping along the way to solve puzzles, search for clues, and learn about local history. <br> Team check-in: 11am; race begins 12pm. Celebratory lunch to follow.<br>Up to four people per team<br><a href='https://www.eventbrite.com/e/castle-quest-2015-tickets-16824780371' target='_blank'>Buy your ticket NOW!</a></p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><img src='assets/images/logo/dca.png' height='30px'/></p>"
+		},
+		{
+			"id": 35,
+			"title": "Open Sew at the Castle",
+			"image": "queens_sewing.jpg",
+			"date": "Saturday, May 23, 2015",
+			"time": "1 PM - 4 PM",
+			"cost": "$8 BHS members; $10 non-BHS members",
+			"abstract": "",
+			"description": "<p>Do you quilt, sew or just love fabric and textiles? Or would you like to learn? Join other sewing enthusiasts in an afternoon of creating and socializing.</p>"
 		},
 		{
 		  "id": 34,
 		  "title": "Clay Figurine Workshop with artist Pat Brintle",
 		  "image": "2015/clay.jpg",
-		  "date": "Saturday, May 19, 2015",
+		  "date": "Saturday, May 9, 2015",
 		  "time": "11 AM",
 		  "cost": "$5",
 		  "abstract": "",
