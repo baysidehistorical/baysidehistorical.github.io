@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $("div[role=navigation]").load("../../header.html")
-  $(".bs-docs-footer .row").load("../../footer.html")
+  $("div[role=navigation]").load("header.html")
+  $(".bs-docs-footer .row").load("footer.html")
 
   $.getJSON("assets/js/eventsList.js", function(result){
 
@@ -25,7 +25,7 @@ $(document).ready(function(){
       tmp = sortedEvents[pos];
       eventMonth = tmp.date.split(" ")[1]
       if(!(compareDates(tmp.date))){
-        build.push('<div class="event" id="'+tmp.id+'"><h3>'+tmp.title+'</h3><div class="content"><p><img src="../assets/images/events/'+tmp.image+'" /></p><p class="date">Date: '+tmp.date+'</p>');
+        build.push('<div class="event" id="'+tmp.id+'"><h3>'+tmp.title+'</h3><div class="content"><p><img src="assets/images/events/'+tmp.image+'" /></p><p class="date">Date: '+tmp.date+'</p>');
 
         if(!(tmp.time == ""))
         build.push('<p class="date">Time: '+tmp.time + '</p>');
@@ -61,7 +61,7 @@ $("#past").click(function(e){
     tmp = sortedEvents[pos];
     eventMonth = tmp.date.split(" ")[1];
     if(compareDates(tmp.date)){
-      build.push('<div class="event" id="'+tmp.id+'"><h3>'+tmp.title+'</h3><div class="content"><p><img src="../assets/images/events/'+tmp.image+'" /></p><p class="date">Date: '+tmp.date+'</p>');
+      build.push('<div class="event" id="'+tmp.id+'"><h3>'+tmp.title+'</h3><div class="content"><p><img src="assets/images/events/'+tmp.image+'" /></p><p class="date">Date: '+tmp.date+'</p>');
 
       if(!(tmp.time == ""))
       build.push('<p class="date">Time: '+tmp.time + '</p>');
