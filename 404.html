@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>Bayside Historical Society</title>
+
+  <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!--Container-->
+  <div class="container" style="max-width:1024px; box-shadow:0px 0px 5px 5px #999999;padding:0px">
+    <!--Header-->
+    <div role="navigation"></div>
+    <!--Contnet Panels-->
+    <div class="row" style="padding:15px">
+      <div class="col-md-12">
+        <h1>Something's wrong here...<h1>
+        <h2>Please use the navigation above or head back to <a href="index.html" style="font-size:30px;">homepage</a>.</h2>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="bs-docs-footer" role="contentinfo" style="background-color:#999999;color:#fff">
+      <div class="row" style="padding:15px;"></div>
+    </footer>
+    <!--End Container-->
+  </div>
+
+  <script src="assets/js/jquery-1.11.2.min.js"></script>
+  <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("div[role=navigation]").load("header.html")
+    $(".bs-docs-footer .row").load("footer.html")
+  })
+  </script>
+</body>
+</html>
