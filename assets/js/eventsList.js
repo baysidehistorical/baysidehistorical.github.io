@@ -22,7 +22,7 @@
 		},
 		{
 		  "id": 38,
-		  "title": "Family Fun Day at Crocheron Park",
+		  "title": "Family Fun Day at Fort Totten Playground",
 		  "image": "2015/family_fun_day.jpg",
 		  "date": "Saturday, June 13, 2015",
 		  "time": "12 PM - 3 PM",
