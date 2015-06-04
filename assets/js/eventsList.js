@@ -1,6 +1,16 @@
 {
 	"events":[
 		{
+		  "id": 41,
+		  "title": "Want to be the Queen Bee?",
+		  "image": "2015/queen_bee.jpg",
+		  "date": "Friday, June 26, 2015",
+		  "time": "",
+		  "cost": "Silent Auction",
+		  "abstract": "",
+		  "description": "<p>Local bee keeper, Ruth Harrigan has installed two bee hives in the back garden of the Castle and the two Queen Bees are in need of names. BHS is holding a silent auction for the privilege of having our new queens named after you!</p><p><a href='assets/files/queen_bee.pdf'>Download event PDF for  more details!</a></p>"
+		},
+		{
 		  "id": 40,
 		  "title": "For Crying Out Loud! The Cartoon Art of TAD Dorgan",
 		  "image": "2015/tad_dorgan.jpg",
