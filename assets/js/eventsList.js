@@ -1,6 +1,16 @@
 {
 	"events":[
 		{
+		  "id": 42,
+		  "title": "Independence Day Celebration",
+		  "image": "2015/firework/fireworks.jpg",
+		  "date": "Wednesday, July 1, 2015",
+		  "time": "",
+		  "cost": "FREE",
+		  "abstract": "",
+		  "description": "<p><a href='https://www.facebook.com/events/1595898720689579/' target='_blank'>Join us on Facebook event!</a></p><p><i>Sponsored by Council Member Paul A. Vallone and Bayside Historical Society. In partnership with the New York City Department of Cultural Affairs.</i><br><img src='assets/images/logo/bhs_sm.png' height='30px'/> <img src='assets/images/logo/dca.png' height='30px'/> <img src='assets/images/events/2015/firework/parks.jpg' height='30px'/> <img src='assets/images/events/2015/firework/dime.gif' height='30px'/></p>"
+		},
+		{
 		  "id": 41,
 		  "title": "Want to be the Queen Bee?",
 		  "image": "2015/queen_bee.jpg",
