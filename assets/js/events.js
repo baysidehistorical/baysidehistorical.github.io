@@ -2,75 +2,68 @@ $(document).ready(function(){
   $("div[role=navigation]").load("header.html")
   $(".bs-docs-footer .row").load("footer.html")
 
-  $.getJSON("assets/js/eventsList.js", function(result){
-
-    json_results = result;
-    //Testing Area
-
-    //end testing area
-    var sortedEvents = result.events;
-
-    sortedEvents.sort(function(a,b){
-      var aDate = Date.parse(a.date);
-      var bDate = Date.parse(b.date);
-
-      if(aDate < bDate) return -1;
-      if(aDate > bDate) return 1;
-      return 0;
-    });
-
-    var build = new Array("");
-    var tmp;
-    for(pos = 0; pos < sortedEvents.length; pos++){
-      tmp = sortedEvents[pos];
-      eventMonth = tmp.date.split(" ")[1]
+  var ref = new Firebase("https://baysidehistorical.firebaseio.com/events");
+  var build = new Array("");
+  ref.orderByChild("date").once("value", function(snapshot) {
+    snapshot.forEach(function(data) {
+      var tmp = data.val();
+      eventMonth = tmp.date.split(" ")[1];
       if(!(compareDates(tmp.date))){
-        build.push('<div class="event" id="'+tmp.id+'"><h3>'+tmp.title+'</h3><div class="content"><p><img src="assets/images/events/'+tmp.image+'" /></p><p class="date">Date: '+tmp.date+'</p>');
+        build.push('<div class="event"><h3>'+tmp.title+'</h3><div class="content"><p><img src="'+tmp.image+'" /></p><p class="date">Date: '+tmp.date+'</p>');
 
         if(!(tmp.time == ""))
-        build.push('<p class="date">Time: '+tmp.time + '</p>');
+        build.push('<p class="date">Time: '+tmp.time.from + ' - ' +tmp.time.to +'</p>');
 
-        build.push('<p class="date">Cost: '+tmp.cost+'</p><p>'+tmp.description+'</p></div><hr class="style-eight"> </div>');
+        if(tmp.cost.member == 0 && tmp.cost.nonmember == 0){
+          build.push('<p class="date">Cost: FREE</p><p>'+tmp.description+'</p>');
+        }else {
+          build.push('<p class="date">Cost:  $'+tmp.cost.member+' with membership; $'+tmp.cost.nonmember+' without membership</p><p>'+tmp.description+'</p>');
+        }
+
+        if(tmp.dca == true){
+          build.push('<div class="media well well-sm"><div class="media-body small">This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</div><div class="media-right media-middle"><img class="media-object" src="assets/images/logo/dca.png" alt="DCA Logo" height="30px"></div></div>');
+        }
+
+        build.push('</div><hr class="style-eight"> </div>');
       }
-    }
+    });
     $("#main-content-event").append(build.join(''));
+  }, function (errorObject) {
+    console.log("The read failed: " + errorObject.code);
   });
+
 });
 
 $("#past").click(function(e){
   e.preventDefault();
-  $.getJSON("assets/js/eventsList.js",
-  function(result){
-    json_results = result;
-    var sortedEvents = result.events;
-
-    /*
-    sortedEvents.sort(function(a,b){
-    var aDate = Date.parse(a.date);
-    var bDate = Date.parse(b.date);
-
-    if(aDate < bDate) return 1;
-    if(aDate > bDate) return -1;
-    return 0;
-
-  });
-  */
+  var ref = new Firebase("https://baysidehistorical.firebaseio.com/events");
   var build = new Array("");
-  var tmp;
-  for(pos = 0; pos < sortedEvents.length; pos++){
-    tmp = sortedEvents[pos];
-    eventMonth = tmp.date.split(" ")[1];
-    if(compareDates(tmp.date)){
-      build.push('<div class="event" id="'+tmp.id+'"><h3>'+tmp.title+'</h3><div class="content"><p><img src="assets/images/events/'+tmp.image+'" /></p><p class="date">Date: '+tmp.date+'</p>');
+  ref.once("value", function(snapshot) {
+    snapshot.forEach(function(data) {
+      var tmp = data.val();
+      eventMonth = tmp.date.split(" ")[1];
+      if(compareDates(tmp.date)){
+        build.push('<div class="event"><h3>'+tmp.title+'</h3><div class="content"><p><img src="'+tmp.image+'" /></p><p class="date">Date: '+tmp.date+'</p>');
 
-      if(!(tmp.time == ""))
-      build.push('<p class="date">Time: '+tmp.time + '</p>');
+        if(!(tmp.time == ""))
+        build.push('<p class="date">Time: '+tmp.time + '</p>');
 
-      build.push('<p class="date">Cost: '+tmp.cost+'</p><p>'+tmp.description+'</p></div><hr class="style-eight"> </div>');
-    }
-  }
-  $("#main-content-event").html(build.join(''));
-});
+        if(tmp.cost.member == 0 && tmp.cost.nonmember == 0){
+          build.push('<p class="date">Cost: FREE</p><p>'+tmp.description+'</p>');
+        }else {
+          build.push('<p class="date">Cost:  $'+tmp.cost.member+' with membership; $'+tmp.cost.nonmember+' without membership</p><p>'+tmp.description+'</p>');
+        }
+
+        if(tmp.dca == true){
+          build.push('<div class="media well well-sm"><div class="media-body small">This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</div><div class="media-right media-middle"><img class="media-object" src="assets/images/logo/dca.png" alt="DCA Logo" height="30px"></div></div>');
+        }
+        build.push('</div><hr class="style-eight"> </div>');
+      }
+    });
+    $("#main-content-event").html(build.join(''));
+  }, function (errorObject) {
+    console.log("The read failed: " + errorObject.code);
+  });
 });
 
 //Returns True if this is a past event and false if it is upcoming
