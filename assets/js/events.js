@@ -14,9 +14,12 @@ $(document).ready(function(){
         if(!(tmp.time == ""))
         build.push('<p class="date">Time: '+tmp.time.from + ' - ' +tmp.time.to +'</p>');
 
-        if(tmp.cost.member == 0 && tmp.cost.nonmember == 0){
+        if(tmp.cost.member == 0 && tmp.cost.nonmember == 0 && tmp.cost.custom == 0){
           build.push('<p class="date">Cost: FREE</p><p>'+tmp.description+'</p>');
-        }else {
+        }else if (tmp.cost.member == 0 && tmp.cost.nonmember == 0 && tmp.cost.custom != 0) {
+          build.push('<p class="date">Cost: '+tmp.cost.custom+'</p><p>'+tmp.description+'</p>')
+        }
+        else {
           build.push('<p class="date">Cost:  $'+tmp.cost.member+' with membership; $'+tmp.cost.nonmember+' without membership</p><p>'+tmp.description+'</p>');
         }
 
@@ -46,11 +49,14 @@ $("#past").click(function(e){
         build.push('<div class="event"><h3>'+tmp.title+'</h3><div class="content"><p><img src="'+tmp.image+'" /></p><p class="date">Date: '+tmp.date+'</p>');
 
         if(!(tmp.time == ""))
-        build.push('<p class="date">Time: '+tmp.time + '</p>');
+        build.push('<p class="date">Time: '+tmp.time.from + ' - ' +tmp.time.to +'</p>');
 
-        if(tmp.cost.member == 0 && tmp.cost.nonmember == 0){
+        if(tmp.cost.member == 0 && tmp.cost.nonmember == 0 && tmp.cost.custom == 0){
           build.push('<p class="date">Cost: FREE</p><p>'+tmp.description+'</p>');
-        }else {
+        }else if (tmp.cost.member == 0 && tmp.cost.nonmember == 0 && tmp.cost.custom != 0) {
+          build.push('<p class="date">Cost: '+tmp.cost.custom+'</p><p>'+tmp.description+'</p>')
+        }
+        else {
           build.push('<p class="date">Cost:  $'+tmp.cost.member+' with membership; $'+tmp.cost.nonmember+' without membership</p><p>'+tmp.description+'</p>');
         }
 
