@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   var ref = new Firebase("https://baysidehistorical.firebaseio.com/events");
   var build = new Array("");
-  ref.orderByChild("date").once("value", function(snapshot) {
+  ref.orderByChild("sortDate").once("value", function(snapshot) {
     snapshot.forEach(function(data) {
       var tmp = data.val();
       eventMonth = tmp.date.split(" ")[1];
@@ -41,7 +41,7 @@ $("#past").click(function(e){
   e.preventDefault();
   var ref = new Firebase("https://baysidehistorical.firebaseio.com/events");
   var build = new Array("");
-  ref.once("value", function(snapshot) {
+  ref.orderByChild("-sortDate").once("value", function(snapshot) {
     snapshot.forEach(function(data) {
       var tmp = data.val();
       eventMonth = tmp.date.split(" ")[1];
