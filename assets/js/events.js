@@ -30,6 +30,7 @@ $(document).ready(function(){
         build.push('</div><hr class="style-eight"> </div>');
       }
     });
+    $("#event-loading").hide();
     $("#main-content-event").append(build.join(''));
   }, function (errorObject) {
     console.log("The read failed: " + errorObject.code);
