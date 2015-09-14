@@ -42,7 +42,7 @@ $("#past").click(function(e){
   e.preventDefault();
   var ref = new Firebase("https://baysidehistorical.firebaseio.com/events");
   var build = new Array("");
-  ref.orderByChild("-sortDate").once("value", function(snapshot) {
+  ref.orderByChild("sortDate").once("value", function(snapshot) {
     snapshot.forEach(function(data) {
       var tmp = data.val();
       eventMonth = tmp.date.split(" ")[1];
