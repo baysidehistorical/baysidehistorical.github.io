@@ -1,6 +1,16 @@
 {
 	"events":[
 		{
+		  "id": 43,
+		  "title": "Haunted Castle",
+		  "image": "2015/firework/fireworks.jpg",
+		  "date": "Friday, October 16, 2015",
+		  "time": "",
+		  "cost": "FREE",
+		  "abstract": "",
+		  "description": "<p>Please visit <a href='http://www.baysidehistorical.org/fireworks' target='_blank'>baysidehistorical.org/fireworks</a> for more information</p><p>Join us on <a href='https://www.facebook.com/events/1595898720689579/' target='_blank'>Facebook</a> or <a href='https://plus.google.com/events/cuqnaskmigfdulknbeb9aegneuc' target='_blank'>Google Plus</a> event!</a></p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><img src='assets/images/logo/bhs_sm.png' height='30px'/> <img src='assets/images/logo/dca.png' height='30px'/> <img src='assets/images/events/2015/firework/parks.jpg' height='30px'/> <img src='assets/images/events/2015/firework/dime.gif' height='30px'/></p>"
+		},
+		{
 		  "id": 42,
 		  "title": "Independence Day Celebration",
 		  "image": "2015/firework/fireworks.jpg",
