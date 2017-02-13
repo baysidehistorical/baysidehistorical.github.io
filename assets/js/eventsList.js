@@ -1,23 +1,381 @@
 {
 	"events":[
 
+		{
+		  "id": 92,
+		  "title": "Dinner and Murder Mystery Theatre",
+		  "image": "1x1.png",
+		  "date": "Saturday, April 1, 2017",
+		  "time": "7pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "",
+		  "cost": "TBA",
+		  "abstract": "",
+		  "description": "<p> No fooling! Someone will die! Join us for a delightfully, dastardly, and dangerously delicious evening. Save the date!! Details to follow...</p> "
+		},
+
+		{
+		  "id": 91,
+		  "title": "Jazz Brunch featuring the Stu Pender Quartet",
+		  "image": "2017_jazz_brunch.jpg",
+		  "date": "Sunday, February 26, 2017",
+		  "time": "12:00pm to 3:00pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "",
+		  "cost": "$30 per person",
+		  "abstract": "",
+		  "description": "<p> Join us for an afternoon of Music, Mimosas, and Gastronomic delights!!</p> "
+		},
+
+		{
+		  "id": 90,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, February 21, 2017",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 89,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, February 14, 2017",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 88,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, January 3, 2017",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 87,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, January 31, 2017",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 86,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, January 24, 2017",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 85,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, January 17, 2017",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 84,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, January 10, 2017",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 83,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, January 3, 2017",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 82,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, December 27, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 81,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, December 20, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 80,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, December 13, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 79,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, December 6, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 78,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, November 29, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 77,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, November 22, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 76,
+		  "title": "Bayside: The Actor's Enclave",
+		  "image": "actorsenclave.png",
+		  "date": "Thursday, November 10, 2016",
+		  "time": "7:00pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "Free for BHS members<br />$5.00 for non-members",
+		  "abstract": "",
+		  "description": "<p>Bayside Historical Society invites you to join us for the opening of our new exhibit, \"Bayside: The Actors' Enclave\". Thursday, November 10, 2016 at 7:00pm. Let us bring you back 100 years - when the Roaring 20s were just starting to purr! View silent movies from the era, along with photographs, posters, news clippings and more from our archives. Live music and refreshments/wine and soft drinks available for purchase. Admission is free for BHS members; $5.00 for non-members. RSVP to info@baysidehistorical.org or 718-352-1548.</p> "
+		},
+
+		{
+		  "id": 75,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesday",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, November 15, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 74,
+		  "title": "15th Annual Totten Trot 5K Foot Race",
+		  "image": "2016TottenTrot.jpg",
+		  "date": "Sunday, October 30, 2016",
+		  "time": "7:30am registration, 9:00am race start",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "Entry Fee<br />$30 on or before 10/15<br />$35 10/16-10/29<br />$40 day of race",
+		  "abstract": "",
+		  "description": "<p> Waterfront course through historic Fort Totten and along Little Bay Park to the Throgs Neck Bridge. All proceeds benefit the Bayside Historical Society, a 501(c)(3) non-profit organization. Click <a href='https://elitefeats.webconnex.com/Totten-Trot-Bayside-Historical-Society-5K-Bayside-Queens-NY-2016'>here to register.</a></p> "
+		},
+
+		{
+		  "id": 73,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesdays",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, July 12, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "startDisplay" : "",
+		  "endDisplay" : "",
+		  "repeat" : "weekly",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+
+		{
+		  "id": 72,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesdays",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, July 5, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
 	
 		{
-		  "id": 54,
-		  "title": "Yoga at the Castle Monthly Series - Tuesdays - May 10, 17, 24, 31",
+		  "id": 71,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesdays",
 		  "image": "yoga.jpg",
-		  "date": "Tuesday, May 10, 2016",
+		  "date": "Tuesday, June 28, 2016",
 		  "time": "12:15pm to 1:15pm",
-		  "cost": "$40 for the March series; walk-ins: $10 per session",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+	
+		{
+		  "id": 70,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesdays",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, June 21, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+	
+		{
+		  "id": 69,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesdays",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, June 14, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. Session runs every Tuesday of the month. Call us at 718.352.1548 to sign up and reserve your spot. Walk-ins OK.</p> "
+		},
+	
+{
+	"id": 68,
+		  "title": "Independence Day Celebration",
+		  "image": "2015/firework/fireworks.jpg",
+		  "date": "Wednesday, June 29, 2016",
+		  "time": "6:30pm to 9:30pm",
+		  "cost": "FREE",
+		  "abstract": "",
+		  "description": "<p>Please visit <a href='http://www.baysidehistorical.org/fireworks' target='_blank'>baysidehistorical.org/fireworks</a> for more information</p><p>Join us on <a href='https://www.facebook.com/events/1595898720689579/' target='_blank'>Facebook</a> or <a href='https://plus.google.com/events/cuqnaskmigfdulknbeb9aegneuc' target='_blank'>Google Plus</a> event!</a></p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><br><img src='assets/images/logo/bhs_sm.png' height='48px'/> <img src='assets/images/logo/dca.png' height='48px'/> <img src='assets/images/events/2015/firework/parks.jpg' height='48px'/></p>"
+	},
+	
+
+	{
+	"id": 67,
+		  "title": "Pop Up at the Castle - Saturday June 11th & Sunday June 12th",
+		  "image": "BHS_POP_UP_Poster5.jpg",
+		  "date": "Sunday, June 12, 2016",
+		  "time": "12:00pm to 9:00pm",
+		  "cost": "Free for BHS Members and $5 for not-yet members",
+		  "abstract": "",
+		  "description": "<p>The Bayside Historical Society is proud to announce the Bayside Pop-Up Galleries Photo Show, an exposition of 15 exclusively local photographers proudly displaying their work in our grand ballroom here at the Castle at Fort Totten.  Gallery hours are as follows:<ul><li>Saturday June 11th from 12 noon – 9pm, with a reception at 4pm</li><li>Sunday June 12th from 12 noon – 7pm, with a reception at 2pm</li></ul>Light refreshments will be served and live musical entertainment will be featured. Admission is free for BHS Members and $5 for not-yet members. Come celebrate the Arts in Bayside! </p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><br><img src='assets/images/logo/bhs_sm.png' height='48px'/> <img src='assets/images/logo/dca.png' height='48px'/> </p>"
+		},
+
+
+		{
+		  "id": 66,
+		  "title": "Yoga at the Castle Monthly Series - Every Tuesdays",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, June 7, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "cost": "$10 per session",
+		  "abstract": "",
+		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. May session runs every Tuesday of the month. Pre-register and save $10. Call us at 718.352.1548 to sign up and reserve your spot.</p> "
+		},
+	
+		{
+		  "id": 65,
+		  "title": "Yoga at the Castle Monthly Series - Tuesdays - April 5, 12, 19, 26",
+		  "image": "yoga.jpg",
+		  "date": "Tuesday, April 26, 2016",
+		  "time": "12:15pm to 1:15pm",
+		  "cost": "$40 for the April series; walk-ins: $10 per session",
 		  "abstract": "",
 		  "description": "<p> Gentle and restorative yoga for beginners. This class is for students over 50. If your doctor has cleared you to do light exercise, this is the class for you. It is an ideal way to rejuvenate the body and revitalize the mind. Includes all equipment: mats, blocks, blankets, straps and bands. May session runs every Tuesday of the month. Pre-register and save $10. Call us at 718.352.1548 to sign up and reserve your spot.</p> "
 		},
 	
 	{
-		  "id": 59,
-		  "title": "Yoga at the Castle Monthly Series - Tuesday - May 10",
+		  "id": 64,
+		  "title": "Yoga at the Castle Monthly Series - Tuesday - April 10",
 		  "image": "yoga.jpg",
-		  "date": "Tuesday May 10, 2016",
+		  "date": "Tuesday April 10, 2016",
 		  "time": "12:15pm to 1:15pm",
 		  "cost": "$40 for the April series; walk-ins: $10 per session",
 		  "abstract": "",
@@ -27,7 +385,7 @@
 	
 	
 	{
-	"id": 58,
+	"id": 63,
 		  "title": "Spring Pop-Up Greeting Cards Workshop",
 		  "image": "PopUpCard.jpg",
 		  "date": "Thursday March 17, 2016",
@@ -42,7 +400,7 @@
 	
 	
 	{
-		  "id": 57,
+		  "id": 62,
 		  "title": "Corona: Presentation and Book Signing by Jason Antos",
 		  "image": "Corona.jpg",
 		  "date": "Friday April 15, 2016",
@@ -51,13 +409,10 @@
 		  "abstract": "",
 		  "description": "<p>Nestled between old Newtown and the village of Flushing in the borough of Queens lies Corona. Known originally as West Flushing, the neighborhood was created before the building boom experienced by Queens in the 20th century. Enchanted by its bucolic landscape, the West Flushing Land Company in the mid-1800s sought to create a suburban residential neighborhood in its midst. The frenzy of development that followed marked the end of Coronas colonial era of farms, dirt roads, and gaslight street lamps, as well as the cherished way of life they signified. Developer Benjamin Hitchcocks groundbreaking installment-plan system put Corona on the map for good in 1870; its founding would set a precedent for future neighboring communities like Forest Hills and Jackson Heights. Before New Yorkers came to the area for Mets baseball and the US Open, people flocked to the National Race Course, one of the first complexes of its kind in America, for an exciting day at the races, while the Tiffany Glass Company forged distinctive lamps and glassware in its Corona-based factory.</p><p><i>This program is supported, in part, by public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</i><br><img src='assets/images/logo/bhs_sm.png' height='30px'/> <img src='assets/images/logo/dca.png' height='30px'/> </p> "
 		},
-	
-	
-	
-	
+
 	
 	{
-		  "id": 56,
+		  "id": 61,
 		  "title": "BHS Annual Membership Meeting",
 		  "image": "AnnualMeeting.jpg",
 		  "date": "Wednesday, March 30, 2016",
@@ -70,7 +425,7 @@
 	
 	
 		{
-		  "id": 55,
+		  "id": 60,
 		  "title": "Open Sew at the Castle",
 		  "image": "queens_sewing.jpg",
 		  "date": "Saturday, January 23, 2016",
@@ -83,7 +438,7 @@
 	
 		
 		{
-		  "id": 54,
+		  "id": 59,
 		  "title": "Yoga at the Castle Monthly Series - Tuesdays - March 1, 8, 15, 22, 29",
 		  "image": "yoga.jpg",
 		  "date": "Tuesday, March 1, 2016",

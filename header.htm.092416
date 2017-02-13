@@ -1,0 +1,69 @@
+<header class="bs-docs-header" role="contentinfo" style="background-color:#bbb;color:#fff;text-align:right;padding:2px">
+	<a href="http://www.facebook.com/pages/bayside-historical-society/216918355028492" target="_blank"><img class="icon" src="assets/svg/facebook_icon.svg"/></a>
+	<a href="https://plus.google.com/118122968907416140051" target="_blank"><img class="icon" src="assets/svg/googleplus_icon.svg" /></a>
+	<a href="mailto:info@baysidehistorical.org"><img class="icon" src="assets/svg/email_icon.svg"/></a>
+</header>
+<!--Logo-->
+<div class="col-md-6 col-sm-6 col-xs-6 logo-left"><span><a href="index.html"><img src="assets/images/logo/bhs_sm.png" alt="Bayside Historical Society" height="80px" style="padding-right: 25px; margin-top: 25px;"></a></span><span><a href="https://elitefeats.webconnex.com/Totten-Trot-Bayside-Historical-Society-5K-Bayside-Queens-NY-2016"><img src="assets/images/logo/Totten-Trot.jpg" alt="5K Totten Trot 2016" height="80px" style="margin-top: 25px;"></a></span><span><a href="index.html"><img src="assets/images/logo/BHS-logo-150.png" alt="Bayside Historical Society"></a><br/></span></div>
+<!--Nav-->
+<div class="navbar navbar-inverse" role="navigation" style="clear:both;margin:0px 0px 0px 0px;border-radius:0px">
+	<!--<div class="container">-->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
+	<div class="collapse navbar-collapse" style="background-color:transparent;padding:0px 0px 0px 0px">
+		<ul class="nav navbar-nav" style="background-color:transparent;width:100%;margin:0px">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="menu-title">About</span> <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu" style="width:100%">
+					<li><a href="about.html?s=0">Mission &amp; <br/> History</a></li>
+					<li class="divider"></li>
+					<li><a href="about.html?s=1">The Castle</a></li>
+					<li><a href="about.html?s=2">Lawrence </br>Cemetery</a></li>
+					<li class="divider"></li>
+					<li><a href="about.html?s=3">Trustees</a></li>
+					<li><a href="about.html?s=4">Staff</a></li>
+					<li class="divider"></li>
+					<li><a href="about.html?s=5">Contact</a></li>
+
+				</ul>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="menu-title">Visit</span> <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="visit.html">Plan Your Visit</a></li>
+					<li class="divider"></li>
+					<li><a href="learn.html">Groups</a></li>
+					<li><a href="rentals.html">Private Parties</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="shoots.html">Location Shoots</a></li>
+				</ul>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="menu-title">Support</span> <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="support.html">Join</a></li>
+					<li class="divider"></li>
+					<li><a href="support.html#donation">Donate</a></li>
+					<li><a href="support.html#gift">Gift &amp; Estate Planning</a></li>
+				</ul>
+			</li>
+			<li><a href="exhibits_current.html"><span class="menu-title">Exhibits</span></a></li>
+			<li><a href="learn_class.html"><span class="menu-title">Learn</span></a></li>
+			<li><a href="events.html"><span class="menu-title">Events</span></a></li>
+			<li><a href="collections.html"><span class="menu-title">Collections</span></a></li>
+			<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="menu-title">Rentals</span> <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="rentals.html">Private Parties</a></li>
+					<li><a href="shoots.html">Location Shoots</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div><!--/.nav-collapse -->
+	<!--</div>-->
+</div>
